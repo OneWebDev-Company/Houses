@@ -252,6 +252,35 @@ a:focus {
 span.logo img{
  width: 60px;
 }
+@media (max-width:767px) {
+  span.logo img{
+    width: 40px;
+   }
+   .slider_section .container .detail-box p {
+
+   font-size: 18px;
+  
+  }
+  .slider_section .container .detail-box h1{
+    font-size: 30px;
+  }
+  .slider_section .detail-box .btn-box a.btn1 {
+    margin: 5px;
+    text-align: center;
+    width: 100px;
+  }
+  .slider_section .container .img-box{
+width: 100%;
+display: flex;
+justify-content: center;
+
+  }
+  .slider_section .container .img-box img{
+width: 60%;
+
+
+  }
+}
 .back-btn{
   position: relative;
   margin: 10px ;
@@ -492,6 +521,10 @@ margin: 0 auto;
   color: #00204a;
   font-weight: 600;
   text-decoration: underline;
+}
+.service_section .box .detail-box a i{
+color: green;
+font-size: 22px;
 }
 
 .service_section .box .detail-box a:hover {
